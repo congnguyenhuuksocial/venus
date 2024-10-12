@@ -1,0 +1,15 @@
+@startuml
+start
+:Input the binary matrix;
+:Initialize heights array to all zeros;
+
+while (more rows?) is (yes)
+    :Process current row;
+    :Update heights array based on the current row;
+    :Calculate max rectangle area using stack;
+    :Update max area;
+endwhile (no)
+
+:Output the maximum area;
+stop
+@enduml
