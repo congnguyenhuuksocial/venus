@@ -13,6 +13,8 @@
 4. **Prototype** - Develop a tangible representation of your ideas.
 5. **Test** - Gather feedback and refine your solution.
 
+![img.png](img.png)
+
 ---
 
 # **Empathize - Understand Users**
