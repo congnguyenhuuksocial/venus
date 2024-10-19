@@ -369,8 +369,6 @@ Leaderboard "1" *-- "0..*" RankingEntry
     - **Type:** One-to-Many
 ---
 
-Below is the PlantUML code for a C4 model to illustrate the Real-Time Quiz system. The C4 model is structured across different layers, focusing on **Context**, **Container**, and **Component** diagrams.
-
 ### **C4 Context Diagram**
 This diagram gives an overview of the system, its users, and external systems.
 
@@ -388,6 +386,9 @@ Person(user, "User (AMS Operator)")
 
 System_Boundary(RealTimeQuiz, "Real-Time Quiz System") {
     System(QuizSystem, "Real-Time Quiz System", "Allows users to participate in real-time quizzes.")
+}
+
+System_Boundary(QuizDatabase, "Quiz Databases") {
     ContainerDb(QuizDb, "Quiz Database", "Stores quiz metadata and session configurations.")
     ContainerDb(UserDb, "User Database", "Stores user information and participation records.")
     ContainerDb(QuestionDb, "Question Database", "Stores quiz questions and answers.")
@@ -396,11 +397,11 @@ System_Boundary(RealTimeQuiz, "Real-Time Quiz System") {
 }
 
 Rel(user, QuizSystem, "Uses")
-QuizSystem -> QuizDb : Reads/Writes
-QuizSystem -> UserDb : Reads/Writes
-QuizSystem -> QuestionDb : Reads/Writes
-QuizSystem -> ScoreDb : Reads/Writes
-QuizSystem -> LeaderboardDb : Reads/Writes
+QuizSystem -> QuizDb : Reads from and Writes to
+QuizSystem -> UserDb : Reads from and Writes to
+QuizSystem -> QuestionDb : Reads from and Writes to
+QuizSystem -> ScoreDb : Reads from and Writes to
+QuizSystem -> LeaderboardDb : Reads from and Writes to
 
 @enduml
 ```
