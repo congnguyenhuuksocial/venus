@@ -74,7 +74,6 @@ Event storming is a useful approach to understand and design a system by mapping
     - The system calculates scores (`Score Updated` event) based on correct answers.
     - Whenever scores are updated, the leaderboard refreshes in real-time (`Leaderboard Updated` event).
 
-This approach covers the lifecycle of a quiz session from creation to the real-time display of scores and leaderboards, ensuring that all user interactions are accounted for. Would you like to dive deeper into any of these elements or explore other aspects?
 ---
 
 Based on the event storming analysis, the Real-Time Quiz feature can be split into several microservices. Each microservice will be responsible for handling a distinct part of the functionality, ensuring scalability, maintainability, and flexibility. Here's how the system can be decomposed:
