@@ -490,5 +490,3 @@ EventProcessingService -> RealTimeCommunicationService : Trigger Real-Time Updat
 RealTimeCommunicationService -> User : Update Quiz Status (joined)
 @enduml
 ```
-
-These PlantUML diagrams use the C4 approach to visualize the architecture of the Real-Time Quiz system at various levels, from context down to components and interactions. Let me know if you need further adjustments or additional diagrams!
