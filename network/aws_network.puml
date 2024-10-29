@@ -1,0 +1,25 @@
+@startmindmap
++ AWS Network
+++ VPC
++++ Public Subnet
+++++ Internet Gateway
++++++ Route Table
+++++++ Routes to Internet
++++ Private Subnet
+++++ NAT Gateway
++++++ Elastic IP
+++++++ Route Table
++++++++ Routes through NAT
++++ Security Groups
++++ Network Access Control Lists (NACLs)
+++ Elastic Load Balancer
++++ Distributes incoming traffic
+++ Amazon Route 53
++++ Manages DNS
+++ AWS Direct Connect
++++ Dedicated network connection
+++ AWS Transit Gateway
++++ Connects VPCs and on-premises networks
+++ AWS VPN
++++ Secure connection to on-premises network
+@endmindmap
