@@ -1,0 +1,55 @@
+@startmindmap
++ AWS Services
+++ Compute
++++ EC2 (Elastic Compute Cloud)
++++ Lambda
++++ Elastic Beanstalk
++++ ECS (Elastic Container Service)
++++ EKS (Elastic Kubernetes Service)
+++ Storage
++++ S3 (Simple Storage Service)
++++ EBS (Elastic Block Store)
++++ Glacier
++++ Storage Gateway
+++ Database
++++ RDS (Relational Database Service)
++++ DynamoDB
++++ ElastiCache
++++ Neptune
+++ Networking & Content Delivery
++++ VPC (Virtual Private Cloud)
++++ CloudFront
++++ Route 53
++++ API Gateway
++++ Direct Connect
+++ Security & Identity
++++ IAM (Identity and Access Management)
++++ KMS (Key Management Service)
++++ WAF (Web Application Firewall)
++++ Shield
++++ GuardDuty
+++ Machine Learning
++++ SageMaker
++++ Rekognition
++++ Comprehend
++++ Lex
++++ Polly
+++ Analytics
++++ Redshift
++++ Kinesis
++++ EMR (Elastic MapReduce)
++++ Athena
++++ QuickSight
+++ Application Integration
++++ SQS (Simple Queue Service)
++++ SNS (Simple Notification Service)
++++ Step Functions
++++ EventBridge
++++ AppSync
+++ Management & Governance
++++ CloudWatch
++++ Auto Scaling
++++ CloudFormation
++++ Trusted Advisor
++++ Config
+@endmindmap

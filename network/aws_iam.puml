@@ -1,0 +1,34 @@
+@startmindmap
++ AWS IAM
+++ Users
++++ "Individual entities, each with unique authentication"
++++ "Attached directly to policies or part of a group"
+++ Groups
++++ "Collections of users under a single set of permissions"
++++ "Simplify permission assignment and management"
+++ Policies
++++ "JSON documents defining permissions and actions"
++++ "Types include Managed Policies and Inline Policies"
+++++ Managed Policies
++++++ "Controlled by AWS (AWS Managed) or by the account (Customer Managed)"
+++++ Inline Policies
++++++ "Directly embedded into a single user, group, or role"
+++ Roles
++++ "Provide permissions to AWS services or accounts without using permanent credentials"
++++ "Assumed by trusted entities (e.g., AWS services, external users)"
+++ Access Keys
++++ "Used for programmatic access via API, CLI, or SDK"
+++ Multi-Factor Authentication (MFA)
++++ "Adds extra layer of security for user sign-in and privileged actions"
+++ Identity Providers
++++ "Federate external identities, enabling SSO to AWS resources"
++++ "Support for SAML and OpenID Connect (OIDC)"
+++ Access Advisor
++++ "Shows service permissions granted and their usage frequency"
+++ Permission Boundaries
++++ "Set maximum permissions users or roles can have"
+++ Service Control Policies (SCPs)
++++ "Central control over permissions for all accounts within an AWS Organization"
+++ Trusted Advisor
++++ "Provides security recommendations for IAM configurations"
+@endmindmap
