@@ -411,3 +411,7 @@ ans: Yes, you can use a VPC to create a hybrid cloud environment by connecting y
 [EIP](EIP.md)
 
 [Security Groups](security_group.md)
+
+
+## Feedback
+--> need to practices to understand more about VPC
