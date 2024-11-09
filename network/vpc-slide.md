@@ -29,7 +29,7 @@
 - **Definition**: A Virtual Private Cloud (VPC) is an isolated network within a public cloud that enables you to securely launch AWS resources.
 - **Key Features**:
     - **Isolation**: Full control over your virtual networking environment.
-    - **Customizable**: You can define your IP address range, subnets, route tables, and security groups.
+    - **Customizable**: You can define your IP address range [IP V4](ip_v4.md), subnets, route tables [Route Table](route_table.md), and security groups [Security Group](security_group.md).
     - **Connectivity**: Options for private, hybrid, or public connections.
 
 ---
@@ -50,8 +50,8 @@
 
 3. **Security**:
 
-    - **Security Groups**: Control inbound and outbound traffic.
-    - **Network ACLs**: Additional layer of traffic filtering.
+    - **Security Groups**: Control inbound and outbound traffic. [Security Groups](security_group.md)
+    - **Network ACLs**: Additional layer of traffic filtering. [Network ACLs](network_acl.md)
 
 ---
 ## Terraform Code: Building a VPC for a Social Media Network
