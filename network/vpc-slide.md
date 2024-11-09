@@ -1,4 +1,26 @@
 # Understanding VPC (Virtual Private Cloud)
+### 1. Document Information
+
+| **Title**          | Understanding VPC (Virtual Private Cloud)                      |
+|--------------------|----------------------------------------------------------------|
+| **Version**        | 1.0                                                            |
+| **Author**         | [Nguyen Thanh Cong], Technical Lead                            |
+| **Contributors**   | [Contributor 1 Name], [Role] <br> [Contributor 2 Name], [Role] |
+| **Reviewers**      | [Reviewer 1 Name], [Role] <br> [Reviewer 2 Name], [Role]       |
+| **Last Updated**   | [Date in 2024-11-09 format]                                    |
+| **Status**         | Draft / Under Review / Final                                   |
+
+---
+
+#### **Version History**
+
+| **Version** | **Date**       | **Author**          | **Description**                                |
+|-------------|----------------|---------------------|------------------------------------------------|
+| 1.0         | 2024-11-09     | [Nguyen Thanh Cong] | Initial draft created                          |
+
+[//]: # (| 1.1         | 2024-11-15     | [Reviewer 1]        | Added feedback from design review              |)
+
+[//]: # (| 1.2         | 2024-11-20     | [Your Name]         | Updated architecture diagram and scope changes |)
 
 ---
 
