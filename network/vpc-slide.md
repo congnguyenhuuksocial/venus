@@ -415,3 +415,4 @@ ans: Yes, you can use a VPC to create a hybrid cloud environment by connecting y
 
 ## Feedback
 --> need to practices to understand more about VPC
+---> https://www.cloudskillsboost.google/
