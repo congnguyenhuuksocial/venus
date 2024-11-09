@@ -1,0 +1,323 @@
+@startmindmap
+
+* AWS Zero to Hero Roadmap
+** Foundation
+*** AWS Basics
+**** AWS Global Infrastructure
+***** Regions and Availability Zones
+***** Edge Locations
+**** IAM (Identity and Access Management)
+***** Users and Groups
+***** Policies and Roles
+**** AWS Management Console & CLI
+***** Navigating the Console
+***** CLI Commands and Configurations
+**** Billing and Cost Management
+***** Cost Explorer
+***** Budget Alerts
+** Compute Services
+*** EC2
+**** Introduction to EC2
+***** Instance Types
+***** Pricing Models (On-Demand, Reserved, Spot)
+**** Launching and Managing Instances
+***** AMIs (Amazon Machine Images)
+***** Instance Lifecycle Management
+**** Security Groups and Key Pairs
+***** Configuring Security Rules
+***** Key Pair Generation and Management
+**** Elastic Load Balancing
+***** Types of Load Balancers
+***** Health Checks
+*** Lambda
+**** Basics of Serverless
+***** Function as a Service (FaaS) Concepts
+***** Benefits of Serverless Architectures
+**** Creating and Deploying Functions
+***** Lambda Console and Deployment Packages
+***** Execution Roles
+**** Event Sources
+***** Triggering with S3, API Gateway, etc.
+***** Asynchronous Invocations
+**** Monitoring and Scaling
+***** CloudWatch Metrics for Lambda
+***** Reserved Concurrency
+*** Elastic Beanstalk
+**** Overview of Elastic Beanstalk
+***** Supported Platforms
+***** Deployment Policies
+**** Application Deployment
+***** Configuration Files
+***** Rolling Updates
+**** Environment Management
+***** Managing Multiple Environments
+***** Environment Variables
+*** EKS (Elastic Kubernetes Service)
+**** Introduction to EKS
+***** Kubernetes Basics
+***** EKS Architecture
+**** Deploying and Managing Clusters
+***** EKS Control Plane
+***** Node Groups
+**** Integrations and Monitoring
+***** Helm Charts
+***** Prometheus and Grafana
+** Storage Services
+*** S3
+**** Object Storage Basics
+***** Buckets and Objects
+***** Storage Classes (Standard, Intelligent-Tiering, etc.)
+**** Buckets and Access Policies
+***** Public Access Controls
+***** Bucket Policies vs. ACLs
+**** Versioning and Lifecycle Rules
+***** Enabling Versioning
+***** Configuring Lifecycle Policies
+*** EBS (Elastic Block Store)
+**** EBS Volume Types
+***** General Purpose SSD (gp3, gp2)
+***** Provisioned IOPS SSD (io2, io1)
+**** Creating and Managing Volumes
+***** Attaching and Detaching Volumes
+***** Resizing Volumes
+**** Snapshots and Backup Strategies
+***** Creating Snapshots
+***** Automated Backups
+*** EFS (Elastic File System)
+**** Overview of EFS
+***** Shared File Storage
+***** POSIX Compliance
+**** Mounting and Performance
+***** Mount Targets
+***** Performance Modes (General Purpose, Max I/O)
+**** Use Cases
+***** Application Data Sharing
+***** Container Storage
+*** Glacier
+**** Archival Storage
+***** Data Retention Policies
+***** Vault Lock
+**** Retrieval Options
+***** Expedited, Standard, Bulk
+**** Cost Management
+***** Cost Optimization Tips
+***** Monitoring Costs
+** Database Services
+*** RDS
+**** Database Engine Options
+***** MySQL, PostgreSQL, etc.
+***** Choosing the Right Engine
+**** Setting Up RDS Instances
+***** DB Instance Configuration
+***** Multi-AZ Deployments
+**** High Availability and Backups
+***** Automated Backups and Snapshots
+***** Failover Mechanisms
+*** DynamoDB
+**** NoSQL Database Basics
+***** Key-Value and Document Store
+***** Partition Key Design
+**** Creating Tables and Indexing
+***** Primary Key and Secondary Indexes
+***** Global and Local Secondary Indexes
+**** DynamoDB Streams
+***** Change Data Capture
+***** Integrating with Lambda
+*** Redshift
+**** Data Warehousing Concepts
+***** Columnar Storage
+***** Compression Techniques
+**** Cluster Management
+***** Node Types (Dense Storage, Dense Compute)
+***** Cluster Resizing
+**** Querying with SQL
+***** Query Editor
+***** Performance Tuning
+*** Aurora
+**** High-Performance Database
+***** Compatibility with MySQL and PostgreSQL
+***** Aurora Serverless
+**** Aurora Clusters
+***** Cluster Endpoints
+***** Read Replicas
+**** Scaling and Replication
+***** Auto Scaling Read Replicas
+***** Cross-Region Replication
+*** Amazon Neptune (GraphDB)
+**** Graph Database Basics
+***** Property Graphs and RDF
+***** Use Cases for GraphDB
+**** Setting Up Neptune
+***** Creating Graphs
+***** Integrating with Gremlin and SPARQL
+**** Querying and Analysis
+***** Writing Graph Queries
+***** Visualizing Graph Data
+** Networking & CDN
+*** VPC (Virtual Private Cloud)
+**** Creating and Configuring VPCs
+***** VPC Wizard Setup
+***** Custom VPC Configurations
+**** Subnets, Route Tables, and Gateways
+***** Public and Private Subnets
+***** NAT Gateways
+**** Network Security
+***** Security Groups vs. NACLs
+***** VPC Peering
+*** Route 53
+**** Domain Management
+***** Registering Domains
+***** Hosted Zones
+**** Routing Policies
+***** Simple, Weighted, Latency
+***** Failover Configurations
+**** Health Checks
+***** Monitoring Endpoint Health
+***** Integrating with CloudWatch
+*** CloudFront
+**** Content Delivery Basics
+***** Edge Caching
+***** Origin and Distribution Setup
+**** Distribution Setup
+***** Creating Distributions
+***** Configuring Behaviors
+**** Caching Strategies
+***** Cache Invalidation
+***** Cache-Control Headers
+*** API Gateway
+**** Creating and Deploying APIs
+***** REST vs. HTTP APIs
+***** Custom Domain Mapping
+**** Integrations with AWS Services
+***** Lambda Integrations
+***** Direct Service Integrations
+**** Security and Monitoring
+***** Authorization (Cognito, IAM)
+***** Logging and Metrics
+** Security & Monitoring
+*** CloudWatch
+**** Setting Up Monitoring
+***** CloudWatch Dashboards
+***** Custom Metrics
+**** Creating Alarms
+***** Thresholds and Notifications
+***** Composite Alarms
+**** Log Insights
+***** Analyzing Logs
+***** Querying Log Data
+*** CloudTrail
+**** Tracking API Calls
+***** Event History
+***** CloudTrail Insights
+**** Security Analysis
+***** Detecting Unusual Activity
+***** Integrating with AWS Organizations
+**** Integrating with SIEM Tools
+***** Centralizing Logs
+***** Alerting and Reporting
+*** AWS Config
+**** Configuration Management
+***** Resource Inventory
+***** Configuration History
+**** Compliance Rules
+***** Custom Rule Creation
+***** Managed Rules
+**** Change Tracking
+***** Change Management Reports
+***** Notifications on Changes
+*** GuardDuty
+**** Threat Detection
+***** Finding Types
+***** GuardDuty Intelligence Feeds
+**** Setting Up and Configuring
+***** Enabling GuardDuty
+***** Trusted IP Lists
+**** Analyzing Findings
+***** Severity Analysis
+***** Automating Responses
+** Advanced & Specialized Services
+*** Step Functions
+**** Building Workflows
+***** Visual Workflow Editor
+***** Parallel Execution
+**** Integrating with AWS Services
+***** Lambda, S3, etc.
+***** External Service Integrations
+**** Error Handling
+***** Retry and Catch
+***** Timeout Configurations
+*** SNS & SQS
+**** Pub/Sub Messaging
+***** Message Publishing
+***** Subscription Types
+**** Creating Topics and Queues
+***** FIFO and Standard Queues
+***** Access Policies
+**** Message Delivery and Processing
+***** Dead-Letter Queues
+***** Message Retention
+*** Kinesis
+**** Real-Time Data Streaming
+***** Data Producers and Consumers
+***** Shard Management
+**** Stream Processing
+***** Kinesis Data Analytics
+***** Data Transformation
+**** Integrating with Lambda
+***** Event Source Mapping
+***** Processing Stream Data
+*** Elastic Transcoder
+**** Media Transcoding Basics
+***** Supported Formats
+***** Job Creation
+**** Creating Transcoding Pipelines
+***** Pipeline Configuration
+***** Preset Management
+**** Formats and Presets
+***** Audio and Video Settings
+***** Custom Presets
+*** Media Services
+**** AWS Elemental MediaConvert
+***** Video Transcoding
+***** Job Queue Management
+**** AWS Elemental MediaLive
+***** Live Video Processing
+***** Input and Output Configuration
+**** AWS Elemental MediaPackage
+***** Packaging and Delivery
+***** DRM Integration
+**** AWS Elemental MediaStore
+***** Storage for Media Workflows
+***** Low-Latency Streaming
+*** Athena
+**** Serverless Querying
+***** Connecting to S3
+***** Partitioning Data
+**** Setting Up Data Sources
+***** Data Catalogs
+***** Integration with Glue
+**** Running Queries and Analyzing Results
+***** Query Performance Optimization
+***** Saving and Exporting Results
+*** OpenSearch
+**** OpenSearch Basics
+***** Full-Text Search Capabilities
+***** Dashboard Visualizations
+**** Setting Up OpenSearch
+***** Creating Clusters
+***** Configuring Indexes
+**** Monitoring and Security
+***** OpenSearch Dashboards
+***** Access Controls
+*** AppSync
+**** Introduction to AppSync
+***** GraphQL API Basics
+***** Benefits of AppSync
+**** Setting Up GraphQL APIs
+***** Schema Design
+***** Resolver Mapping Templates
+**** Real-Time and Offline Features
+***** Subscriptions for Real-Time Data
+***** Caching and Sync Capabilities
+
+@endmindmap
